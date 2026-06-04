@@ -11,17 +11,17 @@ Para solucionar esta situación, se desarrolló un sistema de gestión que permi
 De esta manera, FAST SNACKS mejora la atención al cliente, facilita el acceso a la información y permite llevar un mejor control de las operaciones realizadas dentro del negocio.
 
 *Tecnologías Utilizadas*
--Java
--Maven
--MySQL
--Programación Orientada a Objetos (POO)
+*-Java
+*-Maven
+*-MySQL
+*-Programación Orientada a Objetos (POO)
 
 *Aplicando los conceptos de:*
--Herencia (extends)
--Encapsulamiento (private, getters y setters)
--Constructores
--Objetos
--Interfaces
--Patrón DAO
+*-Herencia (extends)
+*-Encapsulamiento (private, getters y setters)
+*-Constructores
+*-Objetos
+*-Interfaces
+*-Patrón DAO
 -Conexión a Base de Datos MySQL
 -Logger para el registro de eventos y errores
