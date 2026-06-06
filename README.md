@@ -10,15 +10,46 @@ Para solucionar esta situación, se desarrolló un sistema de gestión que permi
 
 De esta manera, FAST SNACKS mejora la atención al cliente, facilita el acceso a la información y permite llevar un mejor control de las operaciones realizadas dentro del negocio.
 
-*Tecnologías Utilizadas*
+## Tecnologías Utilizadas
 
--Java
+El proyecto fue desarrollado utilizando Java como lenguaje principal, MySQL para el almacenamiento de datos, Maven para la gestión del proyecto y Java Swing para la creación de la interfaz gráfica.
 
--Maven
+# Funcionalidades
 
--MySQL
+- Registro y gestión de clientes.
+  
+- Administración de productos.
+  
+- Creación y seguimiento de pedidos.
+  
+- Registro de pagos realizados.
+  
+- Generación de facturas.
+  
+- Consulta del historial de pedidos.
+  
+- Validación de datos ingresados por el usuario.
+  
+- Almacenamiento seguro de información en MySQL.
 
--Programación Orientada a Objetos (POO)
+# Programación Orientada a Objetos Aplicada
 
+## Encapsulamiento
+Se utilizaron atributos privados junto con métodos getters y setters para proteger la información de las clases.
+
+## Herencia
+La clase Cliente hereda atributos y métodos de la clase Persona, permitiendo reutilizar código y mejorar la organización del sistema.
+
+## Constructores
+Se implementaron constructores para inicializar objetos con sus respectivos datos al momento de su creación.
+
+## Objetos
+Se crearon objetos para representar las entidades principales del sistema como Clientes, Productos, Pedidos, Pagos y Facturas.
+
+# Patrón DAO
+El proyecto implementa el patrón DAO (Data Access Object), que permite separar la lógica de acceso a datos de la lógica del negocio.
+
+#Conclusión 
+Con este proyecto logramos crear un sistema que ayuda a organizar mejor la información de FAST SNACKS. Ahora es más fácil registrar clientes, gestionar pedidos, controlar pagos y generar facturas en un solo lugar. Además, este trabajo nos permitió poner en práctica lo aprendido sobre Java, MySQL y Programación Orientada a Objetos para desarrollar una aplicación funcional y útil.
 
 
