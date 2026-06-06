@@ -10,6 +10,36 @@ Para solucionar esta situación, se desarrolló un sistema de gestión que permi
 
 De esta manera, FAST SNACKS mejora la atención al cliente, facilita el acceso a la información y permite llevar un mejor control de las operaciones realizadas dentro del negocio.
 
+## Modelo Conceptual
+
+### Entidades Principales
+
+**Cliente**
+Contiene la información de los clientes registrados, como nombre, teléfono y dirección.
+
+**Producto**
+Almacena los productos disponibles junto con su precio.
+
+**Pedido**
+Registra los pedidos realizados por los clientes, incluyendo fecha, total y estado.
+
+**Detalle Pedido**
+Guarda los productos que forman parte de cada pedido, la cantidad solicitada y el subtotal correspondiente.
+
+**Pago**
+Registra la información de los pagos realizados, incluyendo método de pago, monto y banco.
+
+**Factura**
+Almacena los datos de las facturas generadas para cada venta.
+
+### Relaciones Principales
+
+- Un cliente puede realizar varios pedidos.
+- Un pedido contiene uno o varios productos mediante el detalle del pedido.
+- Un producto puede formar parte de diferentes pedidos.
+- Cada pedido tiene asociado un pago.
+- Cada pago genera una factura.
+
 ## Tecnologías Utilizadas
 
 El proyecto fue desarrollado utilizando Java como lenguaje principal, MySQL para el almacenamiento de datos, Maven para la gestión del proyecto y Java Swing para la creación de la interfaz gráfica.
@@ -49,7 +79,6 @@ Se crearon objetos para representar las entidades principales del sistema como C
 # Patrón DAO
 El proyecto implementa el patrón DAO (Data Access Object), que permite separar la lógica de acceso a datos de la lógica del negocio.
 
-#Conclusión 
-Con este proyecto logramos crear un sistema que ayuda a organizar mejor la información de FAST SNACKS. Ahora es más fácil registrar clientes, gestionar pedidos, controlar pagos y generar facturas en un solo lugar. Además, este trabajo nos permitió poner en práctica lo aprendido sobre Java, MySQL y Programación Orientada a Objetos para desarrollar una aplicación funcional y útil.
+
 
 
