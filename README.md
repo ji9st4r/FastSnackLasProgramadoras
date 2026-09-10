@@ -11,7 +11,7 @@ Para resolver este problema se desarrolló Fast Snack, un sistema que permite re
 ## Objetivo del Proyecto
 Desarrollar un sistema que permita administrar de forma rápida y organizada la información del negocio, mejorando el registro de ventas y la atención al cliente.
 
-##Funcionalidades Principales
+## Funcionalidades Principales
 
 * Registro, búsqueda, edición y eliminación de clientes.
 * Registro, búsqueda, edición y eliminación de productos.
