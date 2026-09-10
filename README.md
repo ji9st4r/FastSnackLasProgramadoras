@@ -56,6 +56,7 @@ El sistema está compuesto por las siguientes tablas:
 * Detalle_Pedido
 * Facturas
 * Pagos
+
 El diagrama entidad-relación se encuentra en el repositorio como referencia de la estructura de la base de datos.
 
 
