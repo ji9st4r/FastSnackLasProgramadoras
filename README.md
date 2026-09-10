@@ -1,14 +1,25 @@
 # FastSnackLasProgramadoras
-Actividad de clase para aplicar tipos de clases (2 tipos de clase, abstractas, completas)
+Sistema de Gestión de Pedidos desarrollado en Java, Java Swing y MySQL para administrar clientes, productos, pedidos, facturas y pagos de un negocio de comida rápida.
 
 # Escenario general:
-FAST SNACKS es un negocio de comida rápida que necesita gestionar de manera eficiente la información de sus clientes, pedidos, productos, facturas y pagos.
+FAST SNACK es un negocio de comida rápida que necesita gestionar de manera eficiente la información de sus clientes, productos, pedidos, facturas y pagos.
 
-Actualmente, el manejo de esta información puede generar retrasos en la atención cuando es necesario registrar clientes, consultar compras anteriores o llevar un control de las ventas realizadas. Además, la generación y consulta de registros puede volverse más complicada a medida que aumenta la cantidad de clientes y pedidos.
+Anteriormente, el manejo de esta información podía generar retrasos al registrar clientes, consultar compras anteriores o controlar las ventas realizadas. Además, conforme aumentaba la cantidad de pedidos, la organización de los datos se volvía más complicada.
 
-Para solucionar esta situación, se desarrolló un sistema de gestión: FAST SNACKS un sistema desarrollado para gestionar la información de un negocio de comida rápida que permite registrar clientes, administrar productos, crear pedidos, generar facturas y registrar pagos, manteniendo toda la información almacenada y organizada en una base de datos MySQL.
+Para resolver este problema se desarrolló Fast Snack, un sistema que permite registrar y administrar toda la información del negocio, almacenándola en una base de datos MySQL para facilitar su consulta y mantener un mejor control de las operaciones.
 
-De esta manera, FAST SNACKS mejora la atención al cliente, facilita el acceso a la información y permite llevar un mejor control de las operaciones realizadas dentro del negocio.
+## Objetivo del Proyecto
+Desarrollar un sistema que permita administrar de forma rápida y organizada la información del negocio, mejorando el registro de ventas y la atención al cliente.
+
+##Funcionalidades Principales
+
+* Registro, búsqueda, edición y eliminación de clientes.
+* Registro, búsqueda, edición y eliminación de productos.
+* Creación y gestión de pedidos.
+* Registro del detalle de cada pedido.
+* Generación de facturas.
+* Registro de pagos.
+* Consulta del historial de pedidos.
 
 ## Integrantes del Grupo
 
@@ -22,19 +33,30 @@ De esta manera, FAST SNACKS mejora la atención al cliente, facilita el acceso a
 ## Instalación y Ejecución
 
 1. Clonar o descargar el repositorio.
-2. Importar el archivo `Sistema_Pedido.sql` en MySQL.
-3. Configurar las credenciales de conexión a la base de datos.
-4. Abrir el proyecto en NetBeans o cualquier IDE compatible con Maven.
-5. Compilar y ejecutar la aplicación.
+2. Importar el archivo Sistema_Pedido.sql en MySQL.
+3. Configurar las credenciales de conexión en ConexionBD.java.
+4. Abrir el proyecto en NetBeans.
+5. Ejecutar FrmInicio.
+6. Iniciar sesión y utilizar el sistema.
 
 ## Tecnologías Utilizadas
 
 * Java
-* MySQL
-* Maven
 * Java Swing
+* MySQL
+* JDBC
+* Maven
 * Programación Orientada a Objetos (POO)
 
+## Base de datos
+El sistema está compuesto por las siguientes tablas:
+* Clientes
+* Productos
+* Pedidos
+* Detalle_Pedido
+* Facturas
+* Pagos
+El diagrama entidad-relación se encuentra en el repositorio como referencia de la estructura de la base de datos.
 
 
 
